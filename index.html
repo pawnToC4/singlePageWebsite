@@ -1,201 +1,160 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Lionel Pe&ntilde;a - Portfolio</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <script src="./script.js"></script>
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <nav>
-      <div id="home">
-        <div class="profile_name">
-            Lionel Pe&ntilde;a
-          <div class="contact_info">
-            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          jdoe@jeemail.com
-        </div>
-        <div style="clear:both;"></div>
-        <div class="contact_info">
-          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          +13456764598
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="./style.css"/>
+        <title>Jane Doe</title>
+    </head>
+    <body>
+        <header id="banner">
+            <div id="personal_details">
+                <h1 style="text-align: center;">Jane Doe</h1>
+                <p style="padding: 5px 0 ;"><i class="fa fa-envelope"></i> jdoe@jeemail.com</p>
+                <p><i class="fa fa-phone"></i> +13456764598</p>
+            </div>
+            <nav id="navi_list">
+                <ul>
+                    <li><a href="#about_me">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#recommendation">Recommendations</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        </div>
-        </div>
-        <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
-          <!-- Add the links for Skills, Projects and Recommendation here -->
-          <a class="topmenu" href="#skills">Skills</a>
-          <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">Recommendations</a>
+        <section id="about_me">
+            <figure id="client_img_section">
+                <img src="img/we_can_do_it.png" id="client_img" alt="Jane Doe"/>
+            </figure>
+            <article id="about_me_info">
+                <h3 style="padding-bottom: 10px;">Hi, I'm Jane Doe! &#128075;</h3>
+                <p>
+                    I am a full stack developer with 2 years of experience in both 
+                    application and presentation layers. I have worked on applications 
+                    and microservices deployed on IBM Cloud. I am an avid user of IBM Watson
+                    Services and have worked on Watson Assistant, NLU, Sentiment analyzer
+                    to name a few.
+                </p>
+            </article>
+        </section>
 
-        </div>
-      </div>    
-    </nav>
+        <section id="skills">
+            <h3>Skills</h3>
+            <section id="skill_set">
+                <div class="skill_item">
+                    <img src="img/html-5.png" alt="HTML 5 logo"/>
+                    <h6>HTML</h6>
+                    <span>2 years experience</span>
+                </div>
+                <div class="skill_item">
+                    <img src="img/java-script.png" alt="Javascript Logo"/>
+                    <h6>Javascript</h6>
+                    <span>1.5 years experience</span>
+                </div>
+                <div class="skill_item">
+                    <img src="img/java.png" alt="Java Logo"/>
+                    <h6>Java</h6>
+                    <span>0.5 years experience</span>
+                </div>
+                <div class="skill_item">
+                    <img src="img/physics.png" alt="React Logo"/>
+                    <h6>React</h6>
+                    <span>1 years experience</span>
+                </div>
+                <div class="skill_item">
+                    <img src="img/nodejs.png" alt="Node.js Logo"/>
+                    <h6>Node.js</h6>
+                    <span>1 years experience</span>
+                </div>
+                <div class="skill_item">
+                    <img src="img/css-3.png" alt="CSS Logo"/>
+                    <h6>CSS</h6>
+                    <span>2 years experience</span>
+                </div>
+            </section>
+        </section>
 
-    <!-- About Me -->
-    <section id="about-me" class="container">
-      <div>
-        <img src="html_finalprojimages/we_can_do_it.png" class="profile_image"/>
-      </div>
+        <section id="projects">
+            <h3>Projects</h3>
+            <section id="project_container">
+                <h4>Chatbot</h4>
+                <div class="project_item">
+                    <span>&bull;</span>
+                    <p>
+                         Developed a secure website integrated with chatbot for an 
+                        automobile client using HTML, CSS, Javascript, and IBM Watson 
+                        Assistant
+                    </p>
+                </div>
+                <hr/>
+                <h4>Sentiment Analyzer</h4>
+                <div class="project_item">
+                    <span>&bull;</span>
+                    <p>
+                        Developed and deployed a sentiment analyzer for the box reviews
+                        section of a eCommerce platform using IBM NLU
+                    </p>
+                </div>
+                <hr/>
+                <h4>Fashion Website</h4>
+                <div class="project_item">
+                    <span>&bull;</span>
+                    <p>
+                        Created a styled multi-page website for a new player in the fashion
+                        industry and integrated it with a shopping cart, using stripe
+                        for payment gateway
+                    </p>
+                </div>
+            </section>
+        </section>
 
-      <div>
-          <h1>
-            Hi, I'm Lionel Pe&ntilde;a! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
-          </h1>
-          <p>
-            This is filler text for testing: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-            anim id est laborum.
-          </p>
-      </div>
-    </section>
-              
-    <!-- Skills -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <div style="clear:both;"></div>
-
-      <div class="all_skills">
-        <div class="skill">
-          <img src="html_finalprojimages/html5.png"/>
-          <h6>HTML</h6>
-          <p>2 years experience</p>
-        </div>  
-
-        <div class="skill">
-          <img src="html_finalprojimages/js.jpeg"/>
-          <h6>JavaScript</h6>
-          <p>3 years experience</p>
-        </div>  
-
-        <!-- Add more skills here -->
-        <div class="skill">
-            <img src="html_finalprojimages/CSS3.png"/>
-            <h6>CSS</h6>
-            <p>&#8508; years experience</p>
-          </div>
-
-          <div class="skill">
-            <img src="html_finalprojimages/react.png"/>
-            <h6>React</h6>
-            <p>e years experience</p>
-          </div>  
-    
-          <div class="skill">
-            <img src="html_finalprojimages/java.png"/>
-            <h6>Java</h6>
-            <p>&#8512; years experience</p>
-          </div>  
-
-      </div>
-    </section>
-          
-    <!-- Projects -->
-    <section class="projects" id="projects">
-      <h2>
-        Projects
-      </h2>
-      <div style="clear:both;"></div>
-
-        <div id="projects-container" class="projects-container">
-          <div class="project-card">
-            <h3>Hipster Ipsum</h3>
-            <ul>
-              <li>
-                Lorem ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics 
-                artisan synth stumptown gastropub cornhole celiac swag. Brunch raclette vexillologist 
-                post-ironic glossier ennui XOXO mlkshk godard pour-over blog tumblr humblebrag. Blue 
-                bottle put a bird on it twee prism biodiesel brooklyn. Blue bottle ennui tbh succulents.
-              </li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>Zombie Ipsum</h3>
-            <ul>
-              <li>
-                Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering 
-                animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger 
-                omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil 
-                stalking monstra adventus resi dentevil vultus comedat cerebella viventium.    
-              </li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>Bacon Ipsum</h3>
-            <ul>
-              <li>
-                Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto 
-                chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison 
-                turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs 
-                andouille bacon sausage. Ground round jerky brisket pastrami shank.
-              </li>
-            </ul>
-          </div>
-    </div>
-    </section>
-    <div style="clear:both;"></div>
-
-    <!-- Recommendations -->
-    <section id="recommendations">
-      <h2>Recommendations</h2>
-      <div style="clear:both;"></div>
-      <div class="all_recommendations" id="all_recommendations">
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Cupcake ipsum dolor. Sit amet marshmallow topping cheesecake muffin. Halvah croissant 
-          candy canes bonbon candy. Apple pie jelly beans topping carrot cake danish tart cake 
-          cheesecake. Muffin danish chocolate soufflé.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Just say anything, George, say what ever's natural, the first thing that comes to your 
-          mind. Take that you mutated son-of-a-bitch. My pine, why you. 
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Space, the final frontier. These are the voyages of the Starship Enterprise. Its 
-          five-year mission: to explore strange new worlds, to seek out new life and new 
-          civilizations.
-          <span>&#8221;</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Recommendation Form -->
-    <section id="contact">
-      <div class="flex_center">
-        <fieldset>
-          <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-          <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
-          </div>
-        </fieldset>
-      </div>
-    </section>
-
-    <div class="iconbutton">
-      <a href="#home">
-        <!--Add the code here for the logo to appear and the icon to be actionable-->
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      </a>
-    </div>
-
-    <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3><!-- Add appropriate text here-->Quote the raven nevermore.</h3>
-      <button onclick="showPopup(false)">Ok</button>
-    </div>
-  </body>
+        <section id="recommendations">
+            <h3>Recommendations</h3>
+            <section id="recommendation_container">
+                <div class="recommendation_item">
+                    <p>
+                        &ldquo;Jane is a very quick learner and quickly
+                        grasps key concepts of Web development. She
+                        got a great attitude & she is an excellent 
+                        team player. She has a curious mind and asks 
+                        the the right questions. She takes initiative
+                        within a team and has potentials to lead the
+                        team.&rdquo;
+                    </p>
+                </div>
+                <div class="recommendation_item">
+                    <p>
+                        &ldquo;Working with Jane has been an awesome 
+                        experience. She is highly knowledgeable and
+                        always goes the extra step to make sure
+                        everything is right. For any future projects 
+                        that need her expertise I would definitely want
+                        to work with her again.&rdquo;
+                    </p>
+                </div>
+                <div class="recommendation_item">
+                    <p>
+                        &ldquo;I had worked along with Jane during initial
+                        phase of our venture which needed Web development.
+                        She is a committed resource who has in depth
+                        knowledge about the domain. She will be an asset
+                        fo any organization!.&rdquo;
+                    </p>                    
+                </div>
+            </section><br/>
+            <form onsubmit="return postQuote()" id="recommendation_form">
+                <h4>Leave a Recommendation</h4><br/>
+                <input type="text" name="userName" id="userName" placeholder="Name (Optional)"/><br/>
+                <textarea id="recommendation_quote" name="recommendation_quote" 
+                    rows="15" placeholder="Message" required></textarea>
+                <button type="submit" value="submit" id="submit" >Submit</button>
+            </form>
+        </section>
+        <footer>
+            <a href="#banner"><i class="fa  fa-arrow-circle-up "></i></a>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
 </html>
