@@ -172,6 +172,8 @@ Projects section
 Recommendations section
 */
 #recommendations{
+    display: flex;
+    flex-direction: column;
     width: 100vw;
 }
 
@@ -195,7 +197,7 @@ Recommendations section
 #recommendation_form{
     display: flex;
     flex-direction: column;
-    justify-self: center;
+    align-self: center;
     width: 75%;
     max-width: 500px;
     margin-bottom: 50px;
